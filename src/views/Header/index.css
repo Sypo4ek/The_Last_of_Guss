@@ -1,0 +1,37 @@
+.header{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  border: .063rem solid #f9f9f9;
+  border-radius: .3rem;
+  padding: 1rem;
+  cursor: default;
+  height: 5rem;
+  position: relative;
+}
+.header h3{
+  margin: 0;
+  margin-left: auto;
+  cursor: default;
+  user-select: none;
+}
+.header h2 {
+  margin: 0;
+  margin-left: auto;
+  color:bisque;
+  user-select: none;
+  cursor: default;
+}
+
+.header button{
+  position: absolute;
+  margin-top: auto;
+  margin-bottom: auto;
+  left: 1rem;
+  height: 3rem;
+  font-size: 1rem;
+  line-height: 1rem;
+}
